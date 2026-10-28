@@ -1,0 +1,2 @@
+add_executable(comm_bus_demo CommBusDemo.cpp)
+target_link_libraries(comm_bus_demo PRIVATE hw_comm_lib)

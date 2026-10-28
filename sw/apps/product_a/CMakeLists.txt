@@ -1,0 +1,3 @@
+add_executable(product_a ProductASim.cpp)
+target_link_directories(product_a PUBLIC include)
+target_link_libraries(product_a PRIVATE sw_comm_lib)
