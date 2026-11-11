@@ -2,9 +2,12 @@
 #define COMM_BUS_H
 
 #include <cstdint>  // uint
+#include <string>
 
 class MessageType {
  public:
+  std::string data;
+
  private:
   uint16_t id;
 };

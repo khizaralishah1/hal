@@ -5,7 +5,7 @@
 
 class HwUartBus : public CommBus {
  public:
-  bool Send(const MessageType& msg) override;
+  bool Send(const MessageType& msg = MessageType()) override;
   bool Receive(MessageType& msg) override;
 
  private:

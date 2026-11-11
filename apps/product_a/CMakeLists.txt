@@ -1,0 +1,2 @@
+add_executable(product_demo Product.cpp)
+target_link_libraries(product_demo PRIVATE hw_comm_lib)

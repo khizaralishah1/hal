@@ -1,9 +1,9 @@
-#ifndef COMM_BUS_SIM_H
-#define COMM_BUS_SIM_H
+#ifndef COMM_SPI_BUS_H
+#define COMM_SPI_BUS_H
 
 #include "CommBus.h"
 
-class CommBusSim : public CommBus {
+class CommSpiBus : public CommBus {
  public:
   bool Send(const MessageType& msg) override;
   bool Receive(MessageType& msg) override;
@@ -11,4 +11,4 @@ class CommBusSim : public CommBus {
  private:
 };
 
-#endif  // COMM_BUS_SIM_H
+#endif  // COMM_SPI_BUS_H
